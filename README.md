@@ -1,16 +1,49 @@
-# ejecutable
+# 🧠 SmartTask AI
 
-A new Flutter project.
+Una aplicación de escritorio para macOS creada con Flutter, que combina un **calendario interactivo**, **asistente de IA con Gemini** y **notificaciones locales** para ayudarte a gestionar tus tareas, reuniones y eventos de forma inteligente.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Características
 
-A few resources to get you started if this is your first Flutter project:
+- 📆 **Calendario visual moderno**  
+  Vista mensual/semanal con diseño tipo cuadrícula y separadores. Cada día muestra cuántos eventos contiene.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🤖 **Asistente de Inteligencia Artificial (Gemini)**  
+  Cada tarea recibe ayuda personalizada de la IA según su tipo, descripción y horario.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ⏰ **Recordatorios automáticos con notificaciones**  
+  Las notificaciones se programan automáticamente 5 minutos antes del evento.
+
+- 🖱️ **Hover preview en eventos (macOS)**  
+  Al pasar el cursor por encima de un evento, se muestra una vista previa con detalles.
+
+- 🧩 UI/UX profesional  
+  Paleta de colores moderna (`#0D1B2A`, `#4ADEDE`) y componentes refinados.
+
+---
+
+## 🖼️ Capturas
+
+> *(Agrega aquí imágenes o gifs si lo deseas)*
+
+---
+
+## 🛠️ Tecnologías usadas
+
+- `Flutter 3.x`
+- `Hive` – base de datos local
+- `table_calendar` – para el calendario visual
+- `flutter_local_notifications` – para recordatorios locales
+- `flutter_markdown` – para renderizar respuestas IA
+- `Google Gemini API` – integración IA
+
+---
+
+## 📦 Instalación (para desarrollo)
+
+```bash
+git clone https://github.com/tuusuario/smart-task-ai.git
+cd smart-task-ai
+flutter pub get
+flutter run -d macos
