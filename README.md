@@ -23,12 +23,6 @@ Una aplicación de escritorio para macOS creada con Flutter, que combina un **ca
 
 ---
 
-## 🖼️ Capturas
-
-> *(Agrega aquí imágenes o gifs si lo deseas)*
-
----
-
 ## 🛠️ Tecnologías usadas
 
 - `Flutter 3.x`
